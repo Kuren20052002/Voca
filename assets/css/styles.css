@@ -1,0 +1,76 @@
+*{
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: #f4f3f2;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-bottom: black 1px solid;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.web-name {
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+#logo-img {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.nav-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.nav-elements a {
+  font-size: 30px;
+  font-weight: 550;
+  letter-spacing: 3px;
+}
+
+.nav-elements .home {
+  color: #b58c63;
+  font-size: 45px;
+  font-family: 700;
+  padding-right: 15px;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
