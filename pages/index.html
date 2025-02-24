@@ -24,19 +24,24 @@
 
     <!-- Sign Up Form -->
     <div class="container">
-        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
-        <p>or log in</p>
-        <div class="form-group">
-            <input type="email" name="email" placeholder="EMAIL" required>
+        <div class="form-header">
+          <h2 class="dktk">ĐĂNG KÝ TÀI KHOẢN</h2>
+          <p id="or-log">or log in</p>
         </div>
         <div class="form-group">
-            <input type="password" name="password" placeholder="MẬT KHẨU" required>
+            <input type="text" name="email" placeholder="EMAIL" required>
         </div>
         <div class="form-group">
-          <input type="password" name="confirm_password" placeholder="XÁC NHẬN MẬT KHẨU" required>
+            <input type="text" name="password" placeholder="MẬT KHẨU" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="confirm_password" placeholder="XÁC NHẬN MẬT KHẨU" required>
         </div>
         <div class="check-create">
-            <input type="checkbox" name="terms" required> Tôi đồng ý với các điều khoản
+            <div class="check">
+              <input type="checkbox" name="terms" class="agreed" required>
+              <p class="agreed">Tôi đồng ý với các điều khoản</p>
+            </div>
             <a href="./page2.html" class="create-account">Create an account</a>
         </div>
         <a href="./page2.html" class="google-signup">SIGN UP WITH GOOGLE</a>
