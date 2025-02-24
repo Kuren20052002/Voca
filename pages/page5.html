@@ -22,22 +22,29 @@
 
     <!-- Sign Up Form -->
     <div class="container">
-        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
-        <p>or log in</p>
-        <form action="#" method="POST">
-            <div class="form-group">
-                <input type="email" name="email" placeholder="EMAIL" required>
-            </div>
-            <div class="form-group">
-                <input type="password" name="password" placeholder="MẬT KHẨU" required>
-            </div>
-            <div class="check-create">
-                <input type="password" name="confirm_password" placeholder="XÁC NHẬN MẬT KHẨU" required>
-                <input type="checkbox" name="terms" required> Tôi đồng ý với các điều khoản
-            </div>
-            <button type="submit">Create an account</button>
-            <button type="button" class="google-signup">SIGN UP WITH GOOGLE</button>
-        </form>
+        <h2>ĐỊNH HƯỚNG VÀ MỤC TIÊU TƯƠNG LAI</h2>
+
+        <p>Bạn mong muốn làm nghề gì trong tương lai? Tại sao lại chọn nghề đó?</p>
+        <input type="text" id="desiredCareer" name="desiredCareer" placeholder="Nhập nghề bạn muốn làm" size="50"><br><br>
+
+        <p>Bạn có kế hoạch học tập hoặc phát triển bản thân cụ thể trong 1-2 năm tới không? (Nếu có, vui lòng mô tả)</p>
+        <input type="text" id="developmentPlan" name="developmentPlan" placeholder="Nhập kế hoạch phát triển" size="50"><br><br>
+
+        <p>Bạn có hình mẫu hoặc người truyền cảm hứng không? Ai và vì sao?</p>
+        <input type="text" id="inspiration" name="inspiration" placeholder="Nhập hình mẫu hoặc người truyền cảm hứng" size="50"><br><br>
+
+        <p>Bạn muốn làm việc tại đâu trong tương lai?</p>
+        <input type="radio" id="no" name="futureWork" value="no">
+        <label for="no">Chưa</label><br>
+        <input type="radio" id="yes" name="futureWork" value="yes">
+        <label for="yes">Có (vui lòng mô tả chi tiết):</label><br><br>
+
+        <p>Mục tiêu lớn nhất bạn muốn đạt được trong 5 năm tới là gì? (Nếu có, vui lòng miêu tả)</p>
+        <input type="text" placeholder="Nhập mục tiêu lớn nhất" size="50"><br>
+
+        <div class="arrow">
+            <a href="./page6.html"><img src="../assets/images/arrow.png"></a>
+        </div>
     </div>
 </body>
 </html>

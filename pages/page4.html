@@ -22,22 +22,44 @@
 
     <!-- Sign Up Form -->
     <div class="container">
-        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
-        <p>or log in</p>
-        <form action="#" method="POST">
-            <div class="form-group">
-                <input type="email" name="email" placeholder="EMAIL" required>
-            </div>
-            <div class="form-group">
-                <input type="password" name="password" placeholder="MẬT KHẨU" required>
-            </div>
-            <div class="check-create">
-                <input type="password" name="confirm_password" placeholder="XÁC NHẬN MẬT KHẨU" required>
-                <input type="checkbox" name="terms" required> Tôi đồng ý với các điều khoản
-            </div>
-            <button type="submit">Create an account</button>
-            <button type="button" class="google-signup">SIGN UP WITH GOOGLE</button>
-        </form>
+        <h2>KINH NGHIỆM VÀ KỸ NĂNG</h2>
+
+        <p>Bạn đã từng tham gia các hoạt động ngoại khóa hoặc cuộc thi nào chưa?</p>
+        <input type="radio" id="no" name="extracurricular" value="no">
+        <label for="no">Chưa</label><br>
+        <input type="radio" id="yes" name="extracurricular" value="yes">
+        <label for="yes">Có (vui lòng mô tả chi tiết):</label><br><br>
+
+        <p>Bạn nghĩ mình giỏi nhất ở kỹ năng nào? (Chọn tối đa 3 kỹ năng)</p>
+        <input type="checkbox" id="communication" name="skills" value="communication">
+        <label for="communication">Giao tiếp</label><br>
+        <input type="checkbox" id="leadership" name="skills" value="leadership">
+        <label for="leadership">Lãnh đạo</label><br>
+        <input type="checkbox" id="logic" name="skills" value="logic">
+        <label for="logic">Tư duy logic</label><br>
+        <input type="checkbox" id="creativity" name="skills" value="creativity">
+        <label for="creativity">Sáng tạo</label><br>
+        <input type="checkbox" id="time_management" name="skills" value="time_management">
+        <label for="time_management">Quản lý thời gian</label><br>
+        <input type="checkbox" id="teamwork" name="skills" value="teamwork">
+        <label for="teamwork">Làm việc nhóm</label><br>
+        <input type="checkbox" id="problem_solving" name="skills" value="problem_solving">
+        <label for="problem_solving">Giải quyết vấn đề</label><br>
+        <input type="checkbox" id="other_skills" name="skills" value="other_skills">
+        <label for="other_skills">Khác (vui lòng ghi rõ):</label><br><br>
+
+        <p>Bạn đã từng tham gia các dự án cộng đồng, tình nguyện hoặc làm thêm chưa?</p>
+        <input type="radio" id="domestic" name="community_projects" value="domestic">
+        <label for="domestic">Trong nước</label><br>
+        <input type="radio" id="abroad" name="community_projects" value="abroad">
+        <label for="abroad">Nước ngoài</label><br>
+        <input type="radio" id="hometown" name="community_projects" value="hometown">
+        <label for="hometown">Tại quê hương</label><br>
+        <input type="radio" id="other_community" name="community_projects" value="other_community">
+        <label for="other_community">Khác (vui lòng ghi rõ):</label><br>
+        <div class="arrow">
+            <a href="./page5.html"><img src="../assets/images/arrow.png"></a>
+        </div>
     </div>
 </body>
 </html>

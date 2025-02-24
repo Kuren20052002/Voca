@@ -22,22 +22,59 @@
 
     <!-- Sign Up Form -->
     <div class="container">
-        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
-        <p>or log in</p>
-        <form action="#" method="POST">
-            <div class="form-group">
-                <input type="email" name="email" placeholder="EMAIL" required>
-            </div>
-            <div class="form-group">
-                <input type="password" name="password" placeholder="MẬT KHẨU" required>
-            </div>
-            <div class="check-create">
-                <input type="password" name="confirm_password" placeholder="XÁC NHẬN MẬT KHẨU" required>
-                <input type="checkbox" name="terms" required> Tôi đồng ý với các điều khoản
-            </div>
-            <button type="submit">Create an account</button>
-            <button type="button" class="google-signup">SIGN UP WITH GOOGLE</button>
-        </form>
+        <h2>TÍNH CÁCH VÀ PHONG CÁCH LÀM VIỆC</h2>
+
+        <p>Bạn tự nhận mình là người:</p>
+        <input type="radio" id="introvert" name="personality" value="introvert">
+        <label for="introvert">Hướng nội (Thích làm việc độc lập, không thích đám đông)</label><br>
+        <input type="radio" id="extrovert" name="personality" value="extrovert">
+        <label for="extrovert">Hướng ngoại (Thích giao tiếp, làm việc nhóm)</label><br>
+        <input type="radio" id="balanced" name="personality" value="balanced">
+        <label for="balanced">Cân bằng giữa hướng nội và hướng ngoại</label><br><br>
+
+        <p>Khi gặp khó khăn, bạn thường chọn cách giải quyết nào?</p>
+        <input type="radio" id="decisive" name="decisionMaking" value="decisive">
+        <label for="decisive">Tự mình tìm cách giải quyết</label><br>
+        <input type="radio" id="askHelp" name="decisionMaking" value="askHelp">
+        <label for="askHelp">Nhờ bạn bè giúp đỡ</label><br>
+        <input type="radio" id="externalHelp" name="decisionMaking" value="externalHelp">
+        <label for="externalHelp">Hỏi ý kiến người thân hoặc chuyên gia</label><br>
+        <input type="radio" id="research" name="decisionMaking" value="research">
+        <label for="research">Tìm kiếm thông tin trên internet</label><br><br>
+
+        <p>Trong một nhóm, bạn thường đảm nhận vai trò gì?</p>
+        <input type="radio" id="leader" name="role" value="leader">
+        <label for="leader">Lãnh đạo</label><br>
+        <input type="radio" id="innovator" name="role" value="innovator">
+        <label for="innovator">Người đưa ra ý tưởng</label><br>
+        <input type="radio" id="organizer" name="role" value="organizer">
+        <label for="organizer">Người tổ chức, lên kế hoạch</label><br>
+        <input type="radio" id="expert" name="role" value="expert">
+        <label for="expert">Người có kỹ năng đặc biệt chuyên môn</label><br>
+        <input type="radio" id="supporter" name="role" value="supporter">
+        <label for="supporter">Người hỗ trợ các thành viên khác</label><br><br>
+
+        <p>Bạn thường đưa ra quyết định dựa trên điều gì?</p>
+        <input type="radio" id="logic" name="decisionBasis" value="logic">
+        <label for="logic">Lý trí</label><br>
+        <input type="radio" id="intuition" name="decisionBasis" value="intuition">
+        <label for="intuition">Cảm xúc</label><br>
+        <input type="radio" id="others" name="decisionBasis" value="others">
+        <label for="others">Lời khuyên từ người khác</label><br><br>
+
+        <p>Bạn đánh giá mức độ tự tin của mình như thế nào?</p>
+        <input type="radio" id="useful" name="purpose" value="useful">
+        <label for="useful">Rất tự tin</label><br>
+        <input type="radio" id="fun" name="purpose" value="fun">
+        <label for="fun">Khá tự tin</label><br>
+        <input type="radio" id="confidence" name="purpose" value="confidence">
+        <label for="confidence">Bình thường</label><br>
+        <input type="radio" id="confidence" name="purpose" value="confidence">
+        <label for="confidence">Thiếu tự tin</label><br><br>
+
+        <div class="arrow">
+            <a href="./page7.html"><img src="../assets/images/arrow.png"></a>
+        </div>
     </div>
 </body>
 </html>
