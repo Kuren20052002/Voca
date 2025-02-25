@@ -456,6 +456,38 @@ input[type="checkbox"]:disabled {
 }
 
 .content-box .question-group .choice-group input[type="checkbox"] {
-  background-color: rgb(233, 233, 233); /* Sets the background color to white when not checked */
+  background-color: #aba295; /* Sets the background color to white when not checked */
 }
 
+.congrats {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  background-color: #aba295;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 60px;
+  letter-spacing: 1px;
+}
+
+.congrats-next {
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  background-color: #e0e2e0;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.congrats-next:first-of-type {
+  margin-top: 50px;
+}
