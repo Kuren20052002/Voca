@@ -22,43 +22,82 @@
         </div>
       </div>
 
-    <!-- Sign Up Form -->
-    <div class="container">
-        <h2>KINH NGHIỆM VÀ KỸ NĂNG</h2>
+    <div class="question-container">
+        <h2 class="title">KINH NGHIỆM VÀ KỸ NĂNG</h2>
 
-        <p>Bạn đã từng tham gia các hoạt động ngoại khóa hoặc cuộc thi nào chưa?</p>
-        <input type="radio" id="no" name="extracurricular" value="no">
-        <label for="no">Chưa</label><br>
-        <input type="radio" id="yes" name="extracurricular" value="yes">
-        <label for="yes">Có (vui lòng mô tả chi tiết):</label><br><br>
+        <div class="question-group">
+          <p class="question">Bạn đã từng tham gia các hoạt động ngoại khóa hoặc cuộc thi nào chưa?</p>
+          <div class="choices">
+            <div class="choice-group">
+              <input type="radio" id="no" name="extracurricular" value="no">
+              <label for="no" class="choice">Chưa</label>
+            </div>
+            <div class="choice-group">
+              <input type="radio" id="yes" name="extracurricular" value="yes">
+              <label for="yes" class="choice">Có (vui lòng mô tả chi tiết):</label>
+            </div>
+          </div>
+        </div>
 
-        <p>Bạn nghĩ mình giỏi nhất ở kỹ năng nào? (Chọn tối đa 3 kỹ năng)</p>
-        <input type="checkbox" id="communication" name="skills" value="communication">
-        <label for="communication">Giao tiếp</label><br>
-        <input type="checkbox" id="leadership" name="skills" value="leadership">
-        <label for="leadership">Lãnh đạo</label><br>
-        <input type="checkbox" id="logic" name="skills" value="logic">
-        <label for="logic">Tư duy logic</label><br>
-        <input type="checkbox" id="creativity" name="skills" value="creativity">
-        <label for="creativity">Sáng tạo</label><br>
-        <input type="checkbox" id="time_management" name="skills" value="time_management">
-        <label for="time_management">Quản lý thời gian</label><br>
-        <input type="checkbox" id="teamwork" name="skills" value="teamwork">
-        <label for="teamwork">Làm việc nhóm</label><br>
-        <input type="checkbox" id="problem_solving" name="skills" value="problem_solving">
-        <label for="problem_solving">Giải quyết vấn đề</label><br>
-        <input type="checkbox" id="other_skills" name="skills" value="other_skills">
-        <label for="other_skills">Khác (vui lòng ghi rõ):</label><br><br>
+        <div class="question-group">
+          <p class="question">Bạn nghĩ mình giỏi nhất ở kỹ năng nào? (Chọn tối đa 3 kỹ năng)</p>
+          <div class="choices">
+            <div class="choice-group">
+              <input type="checkbox" id="communication" name="skills" value="communication">
+              <label for="communication" class="choice">Giao tiếp</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="leadership" name="skills" value="leadership">
+              <label for="leadership" class="choice">Lãnh đạo</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="logic" name="skills" value="logic">
+              <label for="logic" class="choice">Tư duy logic</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="creativity" name="skills" value="creativity">
+              <label for="creativity" class="choice">Sáng tạo</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="time_management" name="skills" value="time_management">
+              <label for="time_management" class="choice">Quản lý thời gian</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="teamwork" name="skills" value="teamwork">
+              <label for="teamwork" class="choice">Làm việc nhóm</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="problem_solving" name="skills" value="problem_solving">
+              <label for="problem_solving" class="choice">Giải quyết vấn đề</label>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" id="other_skills" name="skills" value="other_skills">
+              <label for="other_skills" class="choice">Khác (vui lòng ghi rõ):</label>
+            </div>
+          </div>
+        </div>
 
-        <p>Bạn đã từng tham gia các dự án cộng đồng, tình nguyện hoặc làm thêm chưa?</p>
-        <input type="radio" id="domestic" name="community_projects" value="domestic">
-        <label for="domestic">Trong nước</label><br>
-        <input type="radio" id="abroad" name="community_projects" value="abroad">
-        <label for="abroad">Nước ngoài</label><br>
-        <input type="radio" id="hometown" name="community_projects" value="hometown">
-        <label for="hometown">Tại quê hương</label><br>
-        <input type="radio" id="other_community" name="community_projects" value="other_community">
-        <label for="other_community">Khác (vui lòng ghi rõ):</label><br>
+        <div class="question-group">
+          <p class="question">Bạn đã từng tham gia các dự án cộng đồng, tình nguyện hoặc làm thêm chưa?</p>
+          <div class="choices">
+            <div class="choice-group">
+              <input type="radio" id="domestic" name="community_projects" value="domestic">
+              <label for="domestic" class="choice">Trong nước</label>
+            </div>
+            <div class="choice-group">
+              <input type="radio" id="abroad" name="community_projects" value="abroad">
+              <label for="abroad" class="choice">Nước ngoài</label>
+            </div>
+            <div class="choice-group">
+              <input type="radio" id="hometown" name="community_projects" value="hometown">
+              <label for="hometown" class="choice">Tại quê hương</label>
+            </div>
+            <div class="choice-group">
+              <input type="radio" id="other_community" name="community_projects" value="other_community">
+              <label for="other_community" class="choice">Khác (vui lòng ghi rõ):</label>
+            </div>
+          </div>
+        </div>
         <div class="arrow">
             <a href="./page5.html"><img src="../assets/images/arrow.png"></a>
         </div>

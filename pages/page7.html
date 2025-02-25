@@ -22,27 +22,48 @@
         </div>
       </div>
 
-    <!-- Sign Up Form -->
-    <div class="container">
-        <h2>TÌNH HÌNH TÀI CHÍNH VÀ HỖ TRỢ HỌC TẬP</h2>
+    <div class="question-container">
+      <h2 class="title">TÌNH HÌNH TÀI CHÍNH VÀ HỖ TRỢ HỌC TẬP</h2>
 
-        <p>Nguồn thu nhập chính của gia đình bạn đến từ đâu?</p>
-        <input type="radio" id="farming" name="incomeSource" value="farming">
-        <label for="farming">Nông nghiệp</label><br>
-        <input type="radio" id="business" name="incomeSource" value="business">
-        <label for="business">Kinh doanh buôn bán</label><br>
-        <input type="radio" id="publicService" name="incomeSource" value="publicService">
-        <label for="publicService">Lương từ công việc văn phòng hoặc nhà nước</label><br>
-        <input type="radio" id="manualLabor" name="incomeSource" value="manualLabor">
-        <label for="manualLabor">Lao động phổ thông</label><br>
-        <input type="radio" id="otherIncome" name="incomeSource" value="otherIncome">
-        <label for="otherIncome">Khác (vui lòng ghi rõ):</label><br><br>
+      <div class="question-group">
+        <p class="question">Nguồn thu nhập chính của gia đình bạn đến từ đâu?</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="farming" name="incomeSource" value="farming">
+            <label for="farming" class="choice">Nông nghiệp</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="business" name="incomeSource" value="business">
+            <label for="business" class="choice">Kinh doanh buôn bán</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="publicService" name="incomeSource" value="publicService">
+            <label for="publicService" class="choice">Lương từ công việc văn phòng hoặc nhà nước</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="manualLabor" name="incomeSource" value="manualLabor">
+            <label for="manualLabor" class="choice">Lao động phổ thông</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="otherIncome" name="incomeSource" value="otherIncome">
+            <label for="otherIncome" class="choice">Khác (vui lòng ghi rõ):</label>
+          </div>
+        </div>
+      </div>
 
-        <p>Bạn có nhận được học bổng hoặc hỗ trợ tài chính nào không?</p>
-        <input type="radio" id="yesSupport" name="financialSupport" value="yesSupport">
-        <label for="yesSupport">Có (Vui lòng ghi rõ loại học bổng hoặc hỗ trợ)</label><br>
-        <input type="radio" id="noSupport" name="financialSupport" value="noSupport">
-        <label for="noSupport">Không</label><br><br>
+      <div class="question-group">
+        <p class="question">Bạn có nhận được học bổng hoặc hỗ trợ tài chính nào không?</p>
+        <div class="choices">
+        <div class="choice-group">
+          <input type="radio" id="yesSupport" name="financialSupport" value="yesSupport">
+          <label for="yesSupport" class="choice">Có (Vui lòng ghi rõ loại học bổng hoặc hỗ trợ)</label>
+        </div>
+        <div class="choice-group">
+          <input type="radio" id="noSupport" name="financialSupport" value="noSupport">
+          <label for="noSupport" class="choice">Không</label>
+        </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>

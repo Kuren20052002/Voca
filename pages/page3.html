@@ -22,40 +22,72 @@
       </div>
     </div>
 
-    <!-- Sign Up Form -->
-    <div class="container">
-        <h2>Tình trạng học tập và sở thích</h2>
-        <div class="big-text-group">
-            <p>Môn học yêu thích nhất của bạn là gì? Tại sao?</p>
-            <input type="text" class="big-text">
+    <div class="question-container">
+        <h2 class="title">TÌNH TRẠNG HỌC TẬP VÀ SỞ THÍCH</h2>
+        <div class="question-group">
+          <div class="big-text-group">
+              <p class="question">Môn học yêu thích nhất của bạn là gì? Tại sao?</p>
+              <textarea type="text" class="big-text"></textarea>
+          </div>
         </div>
-        <div class="big-text-group">
-            <p>Môn học bạn cảm thấy khó khăn nhất? Lý do?</p>
-            <input type="text" class="big-text">
+        <div class="question-group">
+          <div class="big-text-group">
+              <p class="question">Môn học bạn cảm thấy khó khăn nhất? Lý do?</p>
+              <textarea type="text" class="big-text"></textarea>
+          </div>
         </div>
-        <h2>Bạn thường dành bao nhiêu giờ mỗi ngày cho việc học ngoài giờ lên lớp?</h2>
-        <input type="radio" id="under1" name="studyTime" value="under1">
-        <label for="under1">Dưới 1 giờ</label><br>
-        <input type="radio" id="1to2" name="studyTime" value="1to2">
-        <label for="1to2">1-2 giờ</label><br>
-        <input type="radio" id="3to4" name="studyTime" value="3to4">
-        <label for="3to4">3-4 giờ</label><br>
-        <input type="radio" id="over4" name="studyTime" value="over4">
-        <label for="over4">Trên 4 giờ</label><br><br>
 
-        <h2>Bạn thích tham gia các hoạt động ngoại khóa nào? (Chọn nhiều đáp án)</h2>
-        <input type="checkbox" id="sports" name="activity" value="sports">
-        <label for="sports">Thể thao</label><br>
-        <input type="checkbox" id="art" name="activity" value="art">
-        <label for="art">Nghệ thuật (vẽ, âm nhạc, nhảy, viết lách...)</label><br>
-        <input type="checkbox" id="research" name="activity" value="research">
-        <label for="research">Khoa học, nghiên cứu</label><br>
-        <input type="checkbox" id="tech" name="activity" value="tech">
-        <label for="tech">Công nghệ, lập trình</label><br>
-        <input type="checkbox" id="volunteer" name="activity" value="volunteer">
-        <label for="volunteer">Hoạt động xã hội, từ thiện</label><br>
-        <input type="checkbox" id="other" name="activity" value="other">
-        <label for="other">Khác (vui lòng ghi rõ)</label><br>
+        <div class="question-group">
+          <p class="question">Bạn thường dành bao nhiêu giờ mỗi ngày cho việc học ngoài giờ lên lớp?</p>
+          <div class="choices">
+            <div class="choice-group">
+              <input type="radio" value="under1">
+              <label for="under1" class="choice">Dưới 1 giờ</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="radio" value="1to2">
+              <label for="1to2" class="choice">1-2 giờ</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="radio" value="3to4">
+              <label for="3to4" class="choice">3-4 giờ</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="radio" value="over4">
+              <label for="over4" class="choice">Trên 4 giờ</label><br><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="question-group">
+          <p class="question">Bạn thích tham gia các hoạt động ngoại khóa nào? (Chọn nhiều đáp án)</p>
+          <div class="choices">
+            <div class="choice-group">
+              <input type="checkbox" value="sports">
+              <label for="sports" class="choice">Thể thao</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" value="art">
+              <label for="art" class="choice">Nghệ thuật (vẽ, âm nhạc, nhảy, viết lách...)</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" value="research">
+              <label for="research" class="choice">Khoa học, nghiên cứu</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" value="tech">
+              <label for="tech" class="choice">Công nghệ, lập trình</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" value="volunteer">
+              <label for="volunteer" class="choice">Hoạt động xã hội, từ thiện</label><br>
+            </div>
+            <div class="choice-group">
+              <input type="checkbox" value="other">
+              <label for="other" class="choice">Khác (vui lòng ghi rõ)</label><br>
+            </div>
+          </div>
+        </div>
         <div class="arrow">
             <a href="./page4.html"><img src="../assets/images/arrow.png"></a>
         </div>

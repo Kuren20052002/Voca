@@ -22,61 +22,118 @@
         </div>
       </div>
 
-    <!-- Sign Up Form -->
-    <div class="container">
-        <h2>TÍNH CÁCH VÀ PHONG CÁCH LÀM VIỆC</h2>
+    <div class="question-container">
+      <h2 class="title">TÍNH CÁCH VÀ PHONG CÁCH LÀM VIỆC</h2>
 
-        <p>Bạn tự nhận mình là người:</p>
-        <input type="radio" id="introvert" name="personality" value="introvert">
-        <label for="introvert">Hướng nội (Thích làm việc độc lập, không thích đám đông)</label><br>
-        <input type="radio" id="extrovert" name="personality" value="extrovert">
-        <label for="extrovert">Hướng ngoại (Thích giao tiếp, làm việc nhóm)</label><br>
-        <input type="radio" id="balanced" name="personality" value="balanced">
-        <label for="balanced">Cân bằng giữa hướng nội và hướng ngoại</label><br><br>
-
-        <p>Khi gặp khó khăn, bạn thường chọn cách giải quyết nào?</p>
-        <input type="radio" id="decisive" name="decisionMaking" value="decisive">
-        <label for="decisive">Tự mình tìm cách giải quyết</label><br>
-        <input type="radio" id="askHelp" name="decisionMaking" value="askHelp">
-        <label for="askHelp">Nhờ bạn bè giúp đỡ</label><br>
-        <input type="radio" id="externalHelp" name="decisionMaking" value="externalHelp">
-        <label for="externalHelp">Hỏi ý kiến người thân hoặc chuyên gia</label><br>
-        <input type="radio" id="research" name="decisionMaking" value="research">
-        <label for="research">Tìm kiếm thông tin trên internet</label><br><br>
-
-        <p>Trong một nhóm, bạn thường đảm nhận vai trò gì?</p>
-        <input type="radio" id="leader" name="role" value="leader">
-        <label for="leader">Lãnh đạo</label><br>
-        <input type="radio" id="innovator" name="role" value="innovator">
-        <label for="innovator">Người đưa ra ý tưởng</label><br>
-        <input type="radio" id="organizer" name="role" value="organizer">
-        <label for="organizer">Người tổ chức, lên kế hoạch</label><br>
-        <input type="radio" id="expert" name="role" value="expert">
-        <label for="expert">Người có kỹ năng đặc biệt chuyên môn</label><br>
-        <input type="radio" id="supporter" name="role" value="supporter">
-        <label for="supporter">Người hỗ trợ các thành viên khác</label><br><br>
-
-        <p>Bạn thường đưa ra quyết định dựa trên điều gì?</p>
-        <input type="radio" id="logic" name="decisionBasis" value="logic">
-        <label for="logic">Lý trí</label><br>
-        <input type="radio" id="intuition" name="decisionBasis" value="intuition">
-        <label for="intuition">Cảm xúc</label><br>
-        <input type="radio" id="others" name="decisionBasis" value="others">
-        <label for="others">Lời khuyên từ người khác</label><br><br>
-
-        <p>Bạn đánh giá mức độ tự tin của mình như thế nào?</p>
-        <input type="radio" id="useful" name="purpose" value="useful">
-        <label for="useful">Rất tự tin</label><br>
-        <input type="radio" id="fun" name="purpose" value="fun">
-        <label for="fun">Khá tự tin</label><br>
-        <input type="radio" id="confidence" name="purpose" value="confidence">
-        <label for="confidence">Bình thường</label><br>
-        <input type="radio" id="confidence" name="purpose" value="confidence">
-        <label for="confidence">Thiếu tự tin</label><br><br>
-
-        <div class="arrow">
-            <a href="./page7.html"><img src="../assets/images/arrow.png"></a>
+      <div class="question-group">
+        <p class="question">Bạn tự nhận mình là người:</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="introvert" name="personality" value="introvert">
+            <label for="introvert" class="choice">Hướng nội (Thích làm việc độc lập, không thích đám đông)</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="extrovert" name="personality" value="extrovert">
+            <label for="extrovert" class="choice">Hướng ngoại (Thích giao tiếp, làm việc nhóm)</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="balanced" name="personality" value="balanced">
+            <label for="balanced" class="choice">Cân bằng giữa hướng nội và hướng ngoại</label>
+          </div>
         </div>
+      </div>
+
+      <div class="question-group">
+        <p class="question">Khi gặp khó khăn, bạn thường chọn cách giải quyết nào?</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="decisive" name="decisionMaking" value="decisive">
+            <label for="decisive" class="choice">Tự mình tìm cách giải quyết</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="askHelp" name="decisionMaking" value="askHelp">
+            <label for="askHelp" class="choice">Nhờ bạn bè giúp đỡ</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="externalHelp" name="decisionMaking" value="externalHelp">
+            <label for="externalHelp" class="choice">Hỏi ý kiến người thân hoặc chuyên gia</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="research" name="decisionMaking" value="research">
+            <label for="research" class="choice">Tìm kiếm thông tin trên internet</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-group">
+        <p class="question">Trong một nhóm, bạn thường đảm nhận vai trò gì?</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="leader" name="role" value="leader">
+            <label for="leader" class="choice">Lãnh đạo</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="innovator" name="role" value="innovator">
+            <label for="innovator" class="choice">Người đưa ra ý tưởng</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="organizer" name="role" value="organizer">
+            <label for="organizer" class="choice">Người tổ chức, lên kế hoạch</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="expert" name="role" value="expert">
+            <label for="expert" class="choice">Người có kỹ năng đặc biệt chuyên môn</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="supporter" name="role" value="supporter">
+            <label for="supporter" class="choice">Người hỗ trợ các thành viên khác</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-group">
+        <p class="question">Bạn thường đưa ra quyết định dựa trên điều gì?</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="logic" name="decisionBasis" value="logic">
+            <label for="logic" class="choice">Lý trí</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="intuition" name="decisionBasis" value="intuition">
+            <label for="intuition" class="choice">Cảm xúc</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="others" name="decisionBasis" value="others">
+            <label for="others" class="choice">Lời khuyên từ người khác</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-group">
+        <p class="question">Bạn đánh giá mức độ tự tin của mình như thế nào?</p>
+        <div class="choices">
+          <div class="choice-group">
+            <input type="radio" id="very_confident" name="confidence" value="very_confident">
+            <label for="very_confident" class="choice">Rất tự tin</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="confident" name="confidence" value="confident">
+            <label for="confident" class="choice">Khá tự tin</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="normal" name="confidence" value="normal">
+            <label for="normal" class="choice">Bình thường</label>
+          </div>
+          <div class="choice-group">
+            <input type="radio" id="lack_confidence" name="confidence" value="lack_confidence">
+            <label for="lack_confidence" class="choice">Thiếu tự tin</label>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="arrow">
+      <a href="./page7.html"><img src="../assets/images/arrow.png"></a>
+  </div>
 </body>
 </html>

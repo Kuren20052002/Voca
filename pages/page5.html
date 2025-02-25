@@ -22,27 +22,45 @@
         </div>
       </div>
 
-    <!-- Sign Up Form -->
-    <div class="container">
-        <h2>ĐỊNH HƯỚNG VÀ MỤC TIÊU TƯƠNG LAI</h2>
-
-        <p>Bạn mong muốn làm nghề gì trong tương lai? Tại sao lại chọn nghề đó?</p>
-        <input type="text" id="desiredCareer" name="desiredCareer" placeholder="Nhập nghề bạn muốn làm" size="50"><br><br>
-
-        <p>Bạn có kế hoạch học tập hoặc phát triển bản thân cụ thể trong 1-2 năm tới không? (Nếu có, vui lòng mô tả)</p>
-        <input type="text" id="developmentPlan" name="developmentPlan" placeholder="Nhập kế hoạch phát triển" size="50"><br><br>
-
-        <p>Bạn có hình mẫu hoặc người truyền cảm hứng không? Ai và vì sao?</p>
-        <input type="text" id="inspiration" name="inspiration" placeholder="Nhập hình mẫu hoặc người truyền cảm hứng" size="50"><br><br>
-
-        <p>Bạn muốn làm việc tại đâu trong tương lai?</p>
-        <input type="radio" id="no" name="futureWork" value="no">
-        <label for="no">Chưa</label><br>
-        <input type="radio" id="yes" name="futureWork" value="yes">
-        <label for="yes">Có (vui lòng mô tả chi tiết):</label><br><br>
-
-        <p>Mục tiêu lớn nhất bạn muốn đạt được trong 5 năm tới là gì? (Nếu có, vui lòng miêu tả)</p>
-        <input type="text" placeholder="Nhập mục tiêu lớn nhất" size="50"><br>
+    <div class="question-container">
+        <h2 class="title">ĐỊNH HƯỚNG VÀ MỤC TIÊU TƯƠNG LAI</h2>
+        <div class="question-group">
+            <div class="big-text-group">
+          <p class="question">Bạn mong muốn làm nghề gì trong tương lai? Tại sao lại chọn nghề đó?</p>
+          <textarea type="text" class="big-text"></textarea>
+            </div>
+        </div>
+        <div class="question-group">
+            <div class="big-text-group">
+          <p class="question">Bạn có kế hoạch học tập hoặc phát triển bản thân cụ thể trong 1-2 năm tới không? (Nếu có, vui lòng mô tả)</p>
+          <textarea type="text" class="big-text"></textarea>
+            </div>
+        </div>
+        <div class="question-group">
+            <div class="big-text-group">
+          <p class="question">Bạn có hình mẫu hoặc người truyền cảm hứng không? Ai và vì sao?</p>
+          <textarea type="text" class="big-text"></textarea>
+            </div>
+        </div>
+        <div class="question-group">
+          <p class="question">Bạn muốn làm việc tại đâu trong tương lai?</p>
+            <div class="choices">
+              <div class="choice-group">
+                <input type="radio" id="no" name="futureWork" value="no">
+                <label for="no" class="choice">Chưa</label>
+              </div>
+              <div class="choice-group">
+                <input type="radio" id="yes" name="futureWork" value="yes">
+                <label for="yes" class="choice">Có (vui lòng mô tả chi tiết):</label>
+              </div>
+            </div>
+        </div>
+        <div class="question-group">
+            <div class="big-text-group">
+                <p class="question">Mục tiêu lớn nhất bạn muốn đạt được trong 5 năm tới là gì? (Nếu có, vui lòng miêu tả)</p>
+                <textarea type="text" class="big-text"></textarea>
+            </div>
+        </div>
 
         <div class="arrow">
             <a href="./page6.html"><img src="../assets/images/arrow.png"></a>

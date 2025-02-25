@@ -27,7 +27,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
   border-bottom: black 1px solid;
@@ -42,15 +42,15 @@ body {
 }
 
 .web-name {
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 #logo-img {
   flex-shrink: 0;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
 }
 
 .nav-elements {
@@ -68,9 +68,9 @@ body {
 }
 
 .nav-elements .home {
-  color: #b58c63;
-  font-size: 25px;
-  font-family: 700;
+  color: #886a4b;
+  font-size: 22px;
+  font-weight: bold;
   padding-right: 15px;
 }
 
@@ -250,7 +250,130 @@ input::placeholder {
   height: 100%; 
 }
 
+.question-container {
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 90px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 550;
+}
+
+.question-group{
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.big-text-group {
+  width:  100%;
+}
+.question {
+  font-size: 25px;
+  font-weight: 570;
+}
+
+textarea.big-text {
+  width: 100%;
+  height: 140px;
+  margin: 20px;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border: none;
+  text-align: left;
+  vertical-align: top;
+}
+
+.choices {
+  margin-left: 20px;
+  gap: 300px; 
+}
+
+.choice {
+  font-size: 25px;
+  font-weight: 550;
+  padding-left: 5px;
+}
+
 @font-face {
   font-family: Montserrat;
   src: url(../../fonts/Montserrat-VariableFont_wght.ttf);
+}
+input[type="radio"] {
+  transform: scale(1.5); /* Increases the size of the radio button */
+  background-color: rgb(206, 206, 206); /* Sets the background color to white when not checked */
+  appearance: none; /* Removes default styling */
+  border-radius: 50%; /* Makes it circular */
+  width: 12px; /* Sets width */
+  height: 12px; /* Sets height */
+  display: inline-block; /* Ensures it displays inline */
+  position: relative; /* Allows positioning of the inner circle */
+  top: -3px; /* Moves the checkbox up by 3px */
+  cursor: pointer; /* Adds pointer cursor */
+}
+
+input[type="radio"]:checked::before {
+  content: '';
+  display: block;
+  width: 12px; /* Inner circle width */
+  height: 12px; /* Inner circle height */
+  background-color: gray; /* Sets the background color to gray when checked */
+  border-radius: 50%; /* Makes the inner circle circular */
+  position: absolute; /* Positions it within the outer circle */
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5); /* Increases the size of the checkbox */
+  background-color: rgb(206, 206, 206); /* Sets the background color to white when not checked */
+  appearance: none; /* Removes default styling */
+  width: 12px; /* Sets width */
+  height: 12px; /* Sets height */
+  display: inline-block; /* Ensures it displays inline */
+  position: relative; /* Allows positioning of the checkmark */
+  top: -3px; /* Moves the checkbox up by 3px */
+}
+
+input[type="checkbox"]:checked::before {
+  font-size: 12px;
+  content: '✓';
+  display: block;
+  width: 12px; /* Checkmark width */
+  height: 12px; /* Checkmark height */
+  color: white; /* Sets the checkmark color */
+  background-color: gray; /* Sets the background color to gray when checked */
+  text-align: center; /* Centers the checkmark */
+  line-height: 12px; /* Centers the checkmark vertically */
+  position: absolute; /* Positions it within the checkbox */
+  top: calc(50%); /* Aligns it to the center vertically and moves it up 8px */
+  left: 50%; /* Aligns it to the center horizontally */
+  transform: translate(-50%, -50%); /* Centers the checkmark */
+}
+
+/* Additional styling for checkboxes */
+input[type="checkbox"]:hover {
+  border-color: #b58c63; /* Changes border color on hover */
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid #b58c63; /* Adds an outline when focused */
+}
+
+input[type="checkbox"]:disabled {
+  background-color: #e0e0e0; /* Changes background color when disabled */
+  border-color: #a0a0a0; /* Changes border color when disabled */
+  cursor: not-allowed; /* Changes cursor to not-allowed when disabled */
 }
