@@ -486,8 +486,130 @@ input[type="checkbox"]:disabled {
   box-sizing: border-box;
   border-radius: 8px;
   border: 1px solid black;
+  transition: transform 0.3s ease-in-out;
 }
+
+.congrats-next:hover {
+  transform: scale(1.1);
+  background-color: #aba295;
+  color: white;
+}
+
 
 .congrats-next:first-of-type {
   margin-top: 50px;
+}
+
+.game-start {
+  background-image: url(../images/background-mock.jpg);
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  gap: 50px;
+  box-sizing: border-box;
+}
+
+.game-start a {
+  color: white;
+}
+
+.game-start .game-text{
+  padding-right: 190px;
+}
+
+
+.game-start .game-text,
+.game-start .start-box {
+  font-size: 45px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.game-start .start-box{
+  width: 450px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.game-start .start-box:hover {
+  transform: scale(1.1);
+  background-color: #aba295;
+}
+
+.game-choose {
+  background-image: url(../images/background_choose.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-choice {
+  width: 300px;
+  height: 40px;
+  padding-bottom: 5px;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 25px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.game-choose a {
+  color: white;
+}
+
+#main-choice {
+  margin-bottom: 210px;
+  width: 430px;
+  height: 55px;
+  font-size: 50px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 6px 3px white;
+}
+
+.career-choice {
+  margin-top: 30px;
+}
+
+.tt {
+  background-image: url(../images/22.jpg);
+}
+
+.tt .arrow {
+  position: absolute;
+  top: 600px;
+}
+
+.tth {
+  background-image: url(../images/23.png);
+}
+
+.tth #done {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #d1c8c1;
+  border: 2px solid black;
+  position: absolute;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  top: 600px;
+  left: 1150px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tth #done:hover {
+  transform: scale(1.1);
+  background-color: #e7ded3;
+  color: swhite;
 }
