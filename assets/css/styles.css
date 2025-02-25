@@ -456,7 +456,7 @@ input[type="checkbox"]:disabled {
 }
 
 .content-box .question-group .choice-group input[type="checkbox"] {
-  background-color: #aba295; /* Sets the background color to white when not checked */
+  background-color: #ffffff; /* Sets the background color to white when not checked */
 }
 
 .congrats {
@@ -502,7 +502,7 @@ input[type="checkbox"]:disabled {
 
 .game-start {
   background-image: url(../images/background-mock.jpg);
-  background-size: auto;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -545,6 +545,7 @@ input[type="checkbox"]:disabled {
 
 .game-choose {
   background-image: url(../images/background_choose.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -582,6 +583,7 @@ input[type="checkbox"]:disabled {
 
 .tt {
   background-image: url(../images/22.jpg);
+  background-size: cover;
 }
 
 .tt .arrow {
@@ -591,6 +593,7 @@ input[type="checkbox"]:disabled {
 
 .tth {
   background-image: url(../images/23.png);
+  background-size: cover;
 }
 
 .tth #done {
