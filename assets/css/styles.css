@@ -408,6 +408,21 @@ input[type="checkbox"]:disabled {
   color:white;
   width: 1200px;
   height: 550px;
+  box-sizing: border-box;
+}
+
+.test-question-container {
+  padding-top: 80px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.test-question-container .title {
+  align-self: flex-start;
 }
 
 .click {
@@ -428,3 +443,19 @@ input[type="checkbox"]:disabled {
 .click:hover {
   transform: scale(1.1);
 }
+
+.description {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.content-box .question-group .choice-group {
+  height: 40px;
+}
+
+.content-box .question-group .choice-group input[type="checkbox"] {
+  background-color: rgb(233, 233, 233); /* Sets the background color to white when not checked */
+}
+
