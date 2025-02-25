@@ -65,6 +65,7 @@ body {
   font-size: 15px;
   font-weight: 550;
   letter-spacing: 3px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-elements .home {
@@ -72,6 +73,12 @@ body {
   font-size: 22px;
   font-weight: bold;
   padding-right: 15px;
+}
+
+.nav-elements a:hover {
+  text-shadow: 1px 1px 1px white;
+  color: #d3a272;
+  transform: scale(1.1);
 }
 
 .container {
@@ -382,4 +389,42 @@ input[type="checkbox"]:disabled {
   background-color: #e0e0e0; /* Changes background color when disabled */
   border-color: #a0a0a0; /* Changes border color when disabled */
   cursor: not-allowed; /* Changes cursor to not-allowed when disabled */
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: url(../images/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-box {
+  margin-top: 30px;
+  background-color: #2d272530;
+  color:white;
+  width: 1200px;
+  height: 550px;
+}
+
+.click {
+  background-color: #aba295;
+  color: white;
+  width: 480px;
+  height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 3px solid black;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 10px;
+  transition: transform 0.2s ease-in-out
+}
+
+.click:hover {
+  transform: scale(1.1);
 }
