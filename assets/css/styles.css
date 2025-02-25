@@ -147,6 +147,11 @@ input::placeholder {
   font-weight: 500;
 }
 
+#agreed {
+  top: 4px;
+}
+
+
 .create-account {
   font-size: 25px;
   font-weight: 600;
@@ -227,14 +232,15 @@ input::placeholder {
   display: flex;
   font-size: 18px;
 }
-
 .input-pin input {
   width: 500px;
   height: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
   padding-left: 20px;
-  text-align: center;
-  line-height: 40px; 
+  text-align: left; /* Start text at the left of the box */
+  line-height: 40px;
+  font-size: 16px; /* Set font size to 16px */
 }
 
 .arrow {
