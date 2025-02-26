@@ -621,7 +621,7 @@ input[type="checkbox"]:disabled {
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 50px;
-  top: 600px;
+  top: 540px;
   left: 1150px;
   transition: transform 0.3s ease-in-out;
 }
@@ -690,4 +690,18 @@ input[type="checkbox"]:disabled {
   padding-right: 170px;
   font-size: 28px;
   font-weight: bolder;
+}
+
+.fka{
+  background-image: url(../images/fkass.jpg);
+  background-size: 100% 100%; /* Stretches the image to fit the body */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#fkass{
+  margin-left: 800px;
+  font-size: 17px;
+  padding-top: 10px;
+  width: 300px;
 }
